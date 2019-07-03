@@ -1,6 +1,6 @@
 //
 //  MyRootViewController.swift
-//  HumiooSwiftDemo
+//  HUMiooSwiftDemo
 //
 //  Created by Humioo on 2019/7/3.
 //  Copyright © 2019 HUMioo.p. All rights reserved.

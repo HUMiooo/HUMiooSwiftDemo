@@ -1,8 +1,8 @@
 //
 //  NIRequest.swift
-//  AIJIAIJIAShopSwift
+//  HUMiooSwiftDemo
 //
-//  Created by 赵春生 on 2017/7/7.
+//  Created by HUMioo on 2017/7/7.
 //  Copyright © 2017年 zcs. All rights reserved.
 //
 

@@ -1,8 +1,8 @@
 //
 //  MyNetworkTools.swift
-//  AIJIAIJIAShopSwift
+//  HUMiooSwiftDemo
 //
-//  Created by 赵春生 on 2017/7/3.
+//  Created by HUMioo on 2017/7/3.
 //  Copyright © 2017年 zcs. All rights reserved.
 //
 

@@ -1,8 +1,8 @@
 //
 //  BlackTheme.swift
-//  MySwiftDemo
+//  HUMiooSwiftDemo
 //
-//  Created by 赵春生 on 2018/5/16.
+//  Created by HUMioo on 2018/5/16.
 //  Copyright © 2018年 HUMiooZcs. All rights reserved.
 //
 

@@ -1,15 +1,15 @@
 //
-//  HumiooSwiftDemoTests.swift
-//  HumiooSwiftDemoTests
+//  HUMiooSwiftDemoTests.swift
+//  HUMiooSwiftDemoTests
 //
 //  Created by Humioo on 2019/7/3.
 //  Copyright © 2019 HUMioo.p. All rights reserved.
 //
 
 import XCTest
-@testable import HumiooSwiftDemo
+@testable import HUMiooSwiftDemo
 
-class HumiooSwiftDemoTests: XCTestCase {
+class HUMiooSwiftDemoTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

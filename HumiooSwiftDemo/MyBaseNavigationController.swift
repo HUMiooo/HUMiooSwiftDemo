@@ -1,8 +1,8 @@
 //
 //  MyBaseNavigationController.swift
-//  AIJIAIJIAShopSwift
+//  HUMiooSwiftDemo
 //
-//  Created by 赵春生 on 2017/6/26.
+//  Created by HUMioo on 2017/6/26.
 //  Copyright © 2017年 zcs. All rights reserved.
 //
 
