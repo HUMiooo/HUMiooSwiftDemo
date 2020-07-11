@@ -10,7 +10,12 @@ import QuartzCore
 
 @IBDesignable
 class AnimatedMaskLabel: UIView {
-
+//    var colors:Array<CGColor>!
+//
+//    func setCGColors(startCGColor:CGColor, midCGColor:CGColor, endCGColor:CGColor) {
+//        colors = [startCGColor, midCGColor, endCGColor]
+//    }
+    
     lazy var gradientLayer: CAGradientLayer = {
         let gradientLayer = CAGradientLayer()
 

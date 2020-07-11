@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D06039322CCA64B00E7AF8A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D06039222CCA64B00E7AF8A /* Alamofire.framework */; };
-		4D06039522CCA65600E7AF8A /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D06039422CCA65600E7AF8A /* Kingfisher.framework */; };
-		4D06039722CCA66400E7AF8A /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D06039622CCA66400E7AF8A /* NVActivityIndicatorView.framework */; };
-		4D06039922CCA66F00E7AF8A /* TangramKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D06039822CCA66F00E7AF8A /* TangramKit.framework */; };
 		4D06039C22CCA83700E7AF8A /* MyRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06039B22CCA83700E7AF8A /* MyRootViewController.swift */; };
 		4D0603AD22CCA8BE00E7AF8A /* MyDebugLogTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06039F22CCA8BC00E7AF8A /* MyDebugLogTool.swift */; };
 		4D0603AE22CCA8BE00E7AF8A /* MyAPITool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0603A022CCA8BD00E7AF8A /* MyAPITool.swift */; };
@@ -73,10 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D06039222CCA64B00E7AF8A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		4D06039422CCA65600E7AF8A /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
-		4D06039622CCA66400E7AF8A /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = Carthage/Build/iOS/NVActivityIndicatorView.framework; sourceTree = "<group>"; };
-		4D06039822CCA66F00E7AF8A /* TangramKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TangramKit.framework; path = Carthage/Build/iOS/TangramKit.framework; sourceTree = "<group>"; };
 		4D06039B22CCA83700E7AF8A /* MyRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRootViewController.swift; sourceTree = "<group>"; };
 		4D06039F22CCA8BC00E7AF8A /* MyDebugLogTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDebugLogTool.swift; sourceTree = "<group>"; };
 		4D0603A022CCA8BD00E7AF8A /* MyAPITool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAPITool.swift; sourceTree = "<group>"; };
@@ -132,10 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D06039922CCA66F00E7AF8A /* TangramKit.framework in Frameworks */,
-				4D06039722CCA66400E7AF8A /* NVActivityIndicatorView.framework in Frameworks */,
-				4D06039522CCA65600E7AF8A /* Kingfisher.framework in Frameworks */,
-				4D06039322CCA64B00E7AF8A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +147,6 @@
 		4D06039122CCA64B00E7AF8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D06039822CCA66F00E7AF8A /* TangramKit.framework */,
-				4D06039622CCA66400E7AF8A /* NVActivityIndicatorView.framework */,
-				4D06039422CCA65600E7AF8A /* Kingfisher.framework */,
-				4D06039222CCA64B00E7AF8A /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -462,10 +446,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/NVActivityIndicatorView.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/TangramKit.framework",
 			);
 			outputFileListPaths = (
 			);

@@ -14,7 +14,6 @@ class FirstViewController: MyRootViewController,NVActivityIndicatorViewable {
     fileprivate let button = UIButton(frame: CGRect(origin: CGPoint(x: SCREEN_WIDTH/2-50, y: 100), size: CGSize(width: 100, height: 40)))
     let na = NVActivityIndicatorView(frame: CGRect(x: SCREEN_WIDTH/2-50, y: 200, width: 100, height: 100), type: NVActivityIndicatorType.lineScalePulseOutRapid, color: UIColor.colorWithHexString(hex: "#0000CD"), padding: 0)
     let imageView = UIImageView(frame: CGRect(x: 0, y: 320, width: 200, height:200))
-    let an = AnimatedMaskLabel.init(frame: CGRect(x: 50, y: 200, width: 200, height: 80))
     let window = UIApplication.shared
 
     override func viewDidLoad() {
@@ -27,17 +26,22 @@ class FirstViewController: MyRootViewController,NVActivityIndicatorViewable {
         imageView.contentMode = .scaleAspectFill
         imageView.center = self.view.center
         self.view.addSubview(imageView)
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        let an = AnimatedMaskLabel.init(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 80))
         an.text = "AAAAAAAAAA"
+//        an.setCGColors(startCGColor: UIColor.black.cgColor, midCGColor: UIColor.white.cgColor, endCGColor: UIColor.black.cgColor)
+        an.center = self.view.center
         an.tag = 1000
         self.view.addSubview(an)
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        an.didMoveToWindow()
-        self.view.viewWithTag(1000)?.removeFromSuperview()
+        let An = self.view.viewWithTag(1000)
+        An?.didMoveToWindow()
+        An?.removeFromSuperview()
     }
     @objc func btnClick1(btn:UIButton) {
         self.navigationController?.pushViewController(First_OneViewController(), animated: true)

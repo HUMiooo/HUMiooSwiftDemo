@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+target "HumiooSwiftDemo" do
+pod 'Alamofire'
+pod 'Kingfisher'
+pod 'NVActivityIndicatorView'
+pod 'TangramKit'
+end
